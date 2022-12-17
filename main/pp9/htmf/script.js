@@ -27341,7 +27341,7 @@ Es posible que aparezcan en el juego algunas variaciones de tu nombre.`
             "model-value": e.name,
             sanitizers: ["username"],
             "onUpdate:modelValue": e.onWriteName
-        }, null, 8, ["placeholder", "model-value", "onUpdate:modelValue"]), e.$i18n.locale !== "en" ? (D(), B("div", zae, [M("label", Xae, Ae(e.$t("LOBBY.INSTRUCTIONS.PRONOUN")), 1), Oe(M("select", {
+        }, null, 8, ["placeholder", "model-value", "onUpdate:modelValue"]), e.$i18n.locale !== "nowaythisworks" ? (D(), B("div", zae, [M("label", Xae, Ae(e.$t("LOBBY.INSTRUCTIONS.PRONOUN")), 1), Oe(M("select", {
             id: "pronoun-select",
             "onUpdate:modelValue": t[0] || (t[0] = I => e.gender = I)
         }, [M("option", Jae, Ae(e.$t("LOBBY.PRONOUN.NEUTER")), 1), M("option", Zae, Ae(e.$t("LOBBY.PRONOUN.MASCULINE")), 1), M("option", Qae, Ae(e.$t("LOBBY.PRONOUN.FEMININE")), 1)], 512), [
