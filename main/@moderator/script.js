@@ -11396,7 +11396,7 @@ var Nie = eL(($ie, bA) => {
             wrapper: "vue",
             isPublic: !0,
             directory: "tjsp/quiplash3",
-            features: ["moderation"],
+            features: ["moderation", "kicking"],
             categoryId: "quiplash3Game"
         }, {
             name: "Tee K.O.",
@@ -11404,7 +11404,7 @@ var Nie = eL(($ie, bA) => {
             wrapper: "vue",
             isPublic: !0,
             directory: "tjsp/awshirt",
-            features: ["moderation"],
+            features: ["moderation", "kicking"],
             shopItems: ["shirts"],
             categoryId: "TeeKOGame"
         }, {
@@ -11413,6 +11413,7 @@ var Nie = eL(($ie, bA) => {
             wrapper: "vue",
             isPublic: !0,
             directory: "tjsp/triviadeath2",
+	    features: ["moderation", "kicking"],
             categoryId: "TriviaMurderParty2Game"
         }, {
             name: "Fibbage 4",
